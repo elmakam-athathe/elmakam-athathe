@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" ><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>رفيع المقام لنقل الأثاث</title>
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=container-queries"></script>
+<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#138aec",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101a22",
+            "foreground-light": "#111518",
+            "foreground-dark": "#f6f7f8",
+            "card-light": "#ffffff",
+            "card-dark": "#182430",
+            "muted-light": "#617789",
+            "muted-dark": "#a0b3c6",
+            "border-light": "#dbe1e6",
+            "border-dark": "#304050"
+          },
+          fontFamily: {
+            "display": ["Work Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "0.75rem",
+            "xl": "1rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        color: white;
+        background-color: rgba(19, 138, 236, 0.5);
+        border-radius: 9999px;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    html[dir="rtl"] .swiper-button-next {
+      left: 1.5rem;
+      right: auto;
+    }
+    html[dir="rtl"] .swiper-button-prev {
+      right: 1.5rem;
+      left: auto;
+    }
+    .logo-slider .swiper-wrapper {
+      transition-timing-function: linear !important;
+    }
+    .gallery-slider .swiper-slide {
+        transition: transform 0.3s ease;
+    }
+    .gallery-slider .swiper-slide:not(.swiper-slide-active) {
+        transform: scale(0.9);
+        opacity: 0.7;
+    }
+    .gallery-slider .swiper-pagination-bullet {
+        background-color: #138aec;
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-foreground-light dark:text-foreground-dark font-display" dir="rtl">
+<div class="relative min-h-screen w-full flex flex-col">
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm" id="home">
+<div class="container mx-auto px-6 py-4 flex justify-between items-center">
+<div class="flex items-center gap-3">
+<img src="logo.png" alt="Rafie-img" width="60">
+<h1 class="text-xl font-bold text-foreground-light dark:text-foreground-dark">رفيع المقام</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+<a class="text-muted-light dark:text-muted-dark hover:text-primary dark:hover:text-primary transition-colors" href="#home">الرئيسية</a>
+<a class="text-muted-light dark:text-muted-dark hover:text-primary dark:hover:text-primary transition-colors" href="#services">الخدمات</a>
+<a class="text-muted-light dark:text-muted-dark hover:text-primary dark:hover:text-primary transition-colors" href="#about">من نحن</a>
+<a class="text-muted-light dark:text-muted-dark hover:text-primary dark:hover:text-primary transition-colors" href="#gallery">معرض اﻷعمال</a>
+<a class="text-muted-light dark:text-muted-dark hover:text-primary dark:hover:text-primary transition-colors" href="#contact">التواصل</a>
+</nav>
+<div class="flex items-center gap-4">
+<!-- <a class="hidden sm:inline-block px-6 py-2 rounded-lg bg-primary/10 text-primary text-sm font-bold hover:bg-primary/20 transition-colors" href="tel:+9660536521291">الأتصال بنا</a> -->
+<a class="px-6 py-2 rounded-lg bg-green-500 text-white text-sm font-bold hover:bg-green-500/90 transition-colors" href="https://wa.me/9660536521291" target="_blank">واتساب</a>
+<!-- <div class="flex items-center gap-2">
+<button class="text-sm font-medium text-muted-light dark:text-muted-dark hover:text-primary">EN</button>
+<span class="text-muted-light dark:text-muted-dark">|</span>
+<button class="text-sm font-medium text-muted-light dark:text-muted-dark hover:text-primary">AR</button>
+</div> -->
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<section class="relative h-[60vh] md:h-[80vh] w-full">
+<div class="swiper-container hero-slider h-full">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="absolute inset-0 bg-cover bg-center" style='background-image: url("Gemini_Generated_Image_74s9gi74s9gi74s9.png");'></div>
+<div class="absolute inset-0 bg-black/50"></div>
+<div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6 max-w-4xl mx-auto">
+<!-- <h1 class="text-4xl md:text-6xl font-bold tracking-tighter">Your Trusted Partner in Moving</h1> -->
+<h1 class="text-4xl md:text-6xl font-bold tracking-tighter text-amber-300 mb-2" dir="rtl">شريككم الموثوق في النقل</h1>
+<!-- <p class="text-lg md:text-xl text-white/90 mt-4">Seamless &amp; reliable moving, packing, and storage services across Saudi Arabia.</p> -->
+<p class="text-lg md:text-xl text-white/90" dir="rtl">خدمات نقل وتغليف وتخزين سلسة وموثوقة في جميع أنحاء المملكة العربية السعودية.</p>
+<a class="mt-8 px-8 py-3 rounded-lg bg-primary text-white text-base font-bold hover:bg-primary/90 transition-transform transform hover:scale-105" href="#contact">التواصل معنا</a>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="absolute inset-0 bg-cover bg-center" style='background-image: url("Gemini_Generated_Image_74s9gi74s9gi74s9.png");'></div>
+<div class="absolute inset-0 bg-black/50"></div>
+<div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6 max-w-4xl mx-auto">
+<!-- <h1 class="text-4xl md:text-6xl font-bold tracking-tighter">Expert Furniture Transport</h1> -->
+<h1 class="text-4xl md:text-6xl font-bold tracking-tighter text-amber-300 mb-2" dir="rtl">نقل أثاث احترافي</h1>
+<!-- <p class="text-lg md:text-xl text-white/90 mt-4">Careful handling and secure transportation for all your furniture.</p> -->
+<p class="text-lg md:text-xl text-white/90" dir="rtl">تعامل دقيق ونقل آمن لجميع أثاثكم.</p>
+<a class="mt-8 px-8 py-3 rounded-lg bg-primary text-white text-base font-bold hover:bg-primary/90 transition-transform transform hover:scale-105" href="#contact">التواصل معنا</a>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="absolute inset-0 bg-cover bg-center" style='background-image: url("Gemini_Generated_Image_74s9gi74s9gi74s9.png");'></div>
+<div class="absolute inset-0 bg-black/50"></div>
+<div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6 max-w-4xl mx-auto">
+<!-- <h1 class="text-4xl md:text-6xl font-bold tracking-tighter">Stress-Free Moving Experience</h1> -->
+<h1 class="text-4xl md:text-6xl font-bold tracking-tighter text-amber-300 mb-2" dir="rtl">تجربة نقل خالية من التوتر</h1>
+<!-- <p class="text-lg md:text-xl text-white/90 mt-4">Our professional team ensures a smooth and efficient move from start to finish.</p> -->
+<p class="text-lg md:text-xl text-white/90" dir="rtl">يضمن فريقنا المحترف انتقالًا سلسًا وفعالًا من البداية إلى النهاية.</p>
+<a class="mt-8 px-8 py-3 rounded-lg bg-primary text-white text-base font-bold hover:bg-primary/90 transition-transform transform hover:scale-105" href="#contact">التوصل معنا</a>
+</div>
+</div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
+</section>
+<section class="py-12 bg-background-light dark:bg-background-dark overflow-hidden">
+<div class="container mx-auto px-6">
+
+</div>
+</div>
+</section>
+<section class="container py-20 bg-background-light dark:bg-background-dark" style="width: 100%; overflow: hidden;" id="gallery">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-foreground-light dark:text-foreground-dark">معرض أعمالنا</h2>
+      <!-- <p class="text-muted-light dark:text-muted-dark mt-2">A glimpse into our professional moving services.</p> -->
+      <p class="text-muted-light dark:text-muted-dark mt-1" dir="rtl">
+         نظرة على خدماتنا الإحترافية في النقل و فك و تركيب الأثاث
+      </p>
+    </div>
+    <div class="swiper-container gallery-slider">
+      <div class="swiper-wrapper pb-12">
+      <div class="swiper-slide"><img alt="Moving team carefully wrapping a large sofa" class="w-full h-auto object-cover rounded-lg shadow-lg" src="Gemini_Generated_Image.png"/></div>
+      <div class="swiper-slide"><img alt="Packed moving truck with furniture secured inside" class="w-full h-auto object-cover rounded-lg shadow-lg" src="Gemini_Generated_Image_.png"/></div>
+      <div class="swiper-slide"><img alt="Professional movers loading boxes onto a truck" class="w-full h-auto object-cover rounded-lg shadow-lg" src="Gemini_Generated_Image_1ap3n1ap3n1ap3n1.png"/></div>
+      <div class="swiper-slide"><img alt="Close-up of fragile item being bubble-wrapped" class="w-full h-auto object-cover rounded-lg shadow-lg" src="Gemini_Generated_Image_24xssf24xssf24xs.png"/></div>
+      <div class="swiper-slide"><img alt="Clean and secure storage units for furniture" class="w-full h-auto object-cover rounded-lg shadow-lg" src="Gemini_Generated_Image_6y9xiu6y9xiu6y9x.png"/></div>
+      <div class="swiper-slide"><img alt="A mover assembling furniture in a new home" class="w-full h-auto object-cover rounded-lg shadow-lg" src="Gemini_Generated_Image_74s9gi74s9gi74s9.png"/></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+<section class="py-20 bg-background-light dark:bg-background-dark" id="about">
+<div class="container mx-auto px-6 text-center">
+<h2 class="text-3xl font-bold text-foreground-light dark:text-foreground-dark mb-4">من نحن  </h2>
+<!-- <p class="max-w-3xl mx-auto text-muted-light dark:text-muted-dark">Rafie AlMakam Movers is a leading moving and furniture transport company in Saudi Arabia, committed to providing seamless and reliable services. Whether you're moving locally or need furniture packing and storage solutions, we've got you covered.</p> -->
+<p class="max-w-3xl mx-auto text-muted-light dark:text-muted-dark mt-2" dir="rtl">شركة رفيع المقام لنقل الأثاث هي شركة رائدة في مجال نقل و فك و تركيب وتغليف الأثاث في المملكة العربية السعودية، ملتزمون بتقديم خدمات سلسة وموثوقة. سواء كنتم تنتقلون محليًا أو تحتاجون إلى حلول تغليف وتخزين الأثاث، فنحن نوفر لكم كل ما تحتاجون.</p>
+</div>
+</section>
+<section class="py-20" id="services">
+<div class="container mx-auto px-6">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-foreground-light dark:text-foreground-dark">خدماتنا  </h2>
+<p class="text-muted-light dark:text-muted-dark mt-2">حلول مصممة خصيصًا لتلبية جميع احتياجات النقل.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-card-light dark:bg-card-dark p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col items-center text-center">
+<div class="p-4 bg-primary/10 rounded-full mb-4">
+<svg class="h-8 w-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<h3 class="text-lg font-bold text-foreground-light dark:text-foreground-dark mb-2">النقل المحلي</h3>
+<p class="text-sm text-muted-light dark:text-muted-dark">نقل فعال وخالٍ من المتاعب داخل مدينتك.</p>
+</div>
+<div class="bg-card-light dark:bg-card-dark p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col items-center text-center">
+<div class="p-4 bg-primary/10 rounded-full mb-4">
+<svg class="h-8 w-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<h3 class="text-lg font-bold text-foreground-light dark:text-foreground-dark mb-2">تعبئة الأثاث</h3>
+<p class="text-sm text-muted-light dark:text-muted-dark">التعبئة من قبل خبراء لحماية أثاثك القيم.</p>
+</div>
+<div class="bg-card-light dark:bg-card-dark p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col items-center text-center">
+<div class="p-4 bg-primary/10 rounded-full mb-4">
+<svg class="h-8 w-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<h3 class="text-lg font-bold text-foreground-light dark:text-foreground-dark mb-2">حلول التخزين</h3>
+<p class="text-sm text-muted-light dark:text-muted-dark">تخزين آمن ومُتحكم في المناخ لممتلكاتك.</p>
+</div>
+<div class="bg-card-light dark:bg-card-dark p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow flex flex-col items-center text-center">
+<div class="p-4 bg-primary/10 rounded-full mb-4">
+<svg class="h-8 w-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l2-2h8a1 1 0 001-1z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M21 11.5l-2-2.5-2 2.5M17 11.5V14a1 1 0 001 1h2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<h3 class="text-lg font-bold text-foreground-light dark:text-foreground-dark mb-2">النقل لمسافات طويلة</h3>
+<p class="text-sm text-muted-light dark:text-muted-dark">نقل موثوق لأثاثك في كافة أنحاء المملكة.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-20 bg-primary/10 dark:bg-primary/5" id="contact">
+<div class="container mx-auto px-6 text-center">
+<h2 class="text-3xl font-bold text-foreground-light dark:text-foreground-dark mb-4">هل أنت مستعد للتحرك؟</h2>
+<p class="text-muted-light dark:text-muted-dark mb-8 max-w-2xl mx-auto">لنجعل خطوتك القادمة هي الأفضل. تواصل معنا للحصول على عرض سعر مجاني وبدون أي التزام.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a class="px-8 py-3 rounded-lg bg-green-500 text-white font-bold hover:bg-green-500/90 transition-transform transform hover:scale-105 flex items-center justify-center gap-2" href="https://wa.me/9660536521291" target="_blank">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.75 13.96c.25.13.4.38.4.66v2.12c0 .28-.15.53-.4.66l-2.92 1.53c-1.34.7-2.98.54-4.14-.42-1.15-.96-1.8-2.39-1.92-3.95a7.82 7.82 0 011.66-5.26C11.23 7.4 13.06 6.5 15 6.5c.38 0 .75.04 1.12.12l1.63.34c.26.05.45.29.45.56v2.12c0 .28-.15.53-.4.66L15 11.5c-.75.38-1.59-.06-1.59-.92V9.4c0-.28-.22-.5-.5-.5s-.5.22-.5.5v.72c-1.28.43-2.18 1.63-2.18 3.03 0 1.79 1.46 3.25 3.25 3.25.98 0 1.84-.44 2.42-1.14l.87-.24zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></svg>
+             التواصل عبر الواتساب
+            </a>
+<!-- <a class="px-8 py-3 rounded-lg bg-background-light dark:bg-card-dark border border-border-light dark:border-border-dark text-foreground-light dark:text-foreground-dark font-bold hover:bg-background-light/50 dark:hover:bg-card-dark/50 transition-colors flex items-center justify-center gap-2" href="tel:+9660536521291">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.02.74-.25 1.02l-2.2 2.2z"></path></svg>
+              اتصل بنا
+            </a> -->
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-card-light dark:bg-card-dark border-t border-border-light dark:border-border-dark">
+<div class="container mx-auto px-6 py-8">
+<div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-6">
+<div>
+<h3 class="text-lg font-bold text-foreground-light dark:text-foreground-dark">رفيع المقام</h3>
+<p class="text-sm text-muted-light dark:text-muted-dark mt-1">شريكك الموثوق في النقل اﻷثاث في المملكة العربية السعودية.
+</p>
+</div>
+<!-- <div class="flex justify-center gap-6">
+<a class="text-muted-light dark:text-muted-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-muted-light dark:text-muted-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
+</a>
+<a class="text-muted-light dark:text-muted-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.013-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049 1.064.218 1.791.465 2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 4.22c.636-.247 1.363-.416 2.427-.465C9.795 2.013 10.148 2 12.315 2h.001zm-1.04 2.295c-1.01.048-1.63.208-2.2.465a2.618 2.618 0 00-1.01 1.01c-.257.57-.417 1.19-.465 2.2s-.06 1.378-.06 3.23c0 1.852.012 2.45.06 3.23.048 1.01.208 1.63.465 2.2a2.618 2.618 0 001.01 1.01c.57.257 1.19.417 2.2.465 1.024.048 1.378.06 3.23.06 1.852 0 2.45-.012 3.23-.06 1.01-.048 1.63-.208 2.2-.465a2.618 2.618 0 001.01-1.01c.257-.57.417 1.19.465-2.2s.06-1.378.06-3.23c0-1.852-.012-2.45-.06-3.23-.048-1.01-.208-1.63-.465-2.2a2.618 2.618 0 00-1.01-1.01c-.57-.257-1.19-.417-2.2-.465-1.024-.048-1.378-.06-3.23-.06s-2.206.012-3.23.06zM12 6.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm5.338-9.87a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z" fill-rule="evenodd"></path></svg>
+</a>
+</div> -->
+</div>
+<div class="mt-8 border-t border-border-light dark:border-border-dark pt-6 text-center text-sm text-muted-light dark:text-muted-dark">
+<p>© 2024 Rafie AlMakam Movers. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+<div class="fixed bottom-6 right-6 z-50 flex flex-col gap-4 rtl:right-auto rtl:left-6">
+ <a class="w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center text-white shadow-lg hover:bg-[#1EBE57] transition-colors" href="https://wa.me/9660536521291" target="_blank">
+<svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.03 4.97a10 10 0 0 0-14.06 0 10 10 0 0 0 0 14.06l3.52-3.53a5 5 0 0 1 7.02-7.02l3.52-3.51zM12 20a8 8 0 0 1-5.66-2.34l-2.07 2.07a1 1 0 0 1-1.42 0L2.1 18.9a1 1 0 0 1 0-1.42l2.07-2.07A8 8 0 1 1 12 20zm-1.5-6.09l-1.07 1.06c-.47.47-1.1.7-1.74.7-.85 0-1.63-.33-2.22-.92s-.92-1.37-.92-2.22c0-.64.23-1.27.7-1.74l1.06-1.07L4 9.5l-1.06 1.07c-.68.68-1.06 1.6-1.06 2.55s.38 1.87 1.06 2.55c.68.68 1.6 1.06 2.55 1.06s1.87-.38 2.55-1.06L9 14.5l-1.5-1.59zM15 11l-1.5-1.59 1.5-1.5-1.06-1.07c-.68-.68-1.6-.68-2.28 0l-1.06 1.07L9.5 9l1.06-1.07c.68-.68 1.6-1.06 2.55-1.06s1.87.38 2.55 1.06c.68.68 1.06 1.6 1.06 2.55s-.38 1.87-1.06 2.55L14.5 15l1.5-1.59z"></path></svg>
+</a> 
+<!-- <a class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white shadow-lg hover:bg-primary/90 transition-colors" href="tel:+9660536521291">
+<svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.02.74-.25 1.02l-2.2 2.2z"></path></svg>
+</a> -->
+</div>
+<script>
+    var heroSwiper = new Swiper('.hero-slider', {
+      loop: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
+    });
+    var logoSwiper = new Swiper('.logo-slider', {
+      loop: true,
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+      },
+      slidesPerView: 'auto',
+      spaceBetween: 40,
+      speed: 5000,
+    });
+    var gallerySwiper = new Swiper('.gallery-slider', {
+        loop: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        spaceBetween: 30,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+        },
+    });
+</script>
+</body></html>
